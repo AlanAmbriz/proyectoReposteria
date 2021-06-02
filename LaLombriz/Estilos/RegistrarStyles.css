@@ -1,0 +1,49 @@
+﻿body {
+    margin: 0;
+    height: 0;
+    height: 100%;
+    overflow: hidden;
+}
+#newAccount {
+    height: 100vh;
+}
+#fondoRegistrar {
+    display: flex;
+    min-width: 100%;
+    min-height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Recursos/login/registrar.jpg);
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    padding: 20px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#create-container {
+    background-color: white;
+    min-height: 526px;
+    width: 440px;
+    color: black;
+    border-radius: 20px;
+}
+#content-create {
+    padding: 25px;
+}
+
+#header-create {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#footer-create {
+    text-align: end;
+    padding: 20px 20px 20px 0px
+}
+
+/*RESPONSIVE DESIGN*/
+@media (min-width:890px) {
+    #fondoRegistrar {
+        padding-right: 250px;
+    }
+}

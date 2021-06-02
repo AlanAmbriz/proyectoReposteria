@@ -1,0 +1,201 @@
+﻿/*Menu opciones*/
+/*Estilos botones*/
+.containerOptionsMenu {
+    margin: 0px 30px;
+}
+.btnOptions {
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+    border-bottom: 2px solid;
+}
+    .btnOptions a {
+        display: block;
+        text-decoration: none;
+        height: 100%;
+        width: 100%;
+        color: white;
+        background-image: linear-gradient(#e66465, #9198e5);
+        background-position: 50% 60%;
+        background-repeat: no-repeat;
+        background-size: 0% 4px;
+        transition-property: background-size color;
+        transition-duration: 0.3s, 0.3s;
+    }
+/*Boton pasteles*/
+#second-container {
+    padding-top: 53px;
+}
+#cakeBefore {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Recursos/btnCake.jpg);
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    font-size: 50px;
+    font-family: Cambria;
+}
+/*Boton Macarons*/
+#burgerBefore {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Recursos/btnMacarons.jpeg);
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    font-size: 50px;
+    font-family: Cambria;
+}
+/*Boton Mesas*/
+#packBefore {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Recursos/btnPack.jpg);
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    font-size: 50px;
+    font-family: Cambria;
+}
+/*Boton otros*/
+#otherBefore {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Recursos/btnOther.jpg);
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    font-size: 50px;
+    font-family: Cambria;
+}
+/*ESTILOS MENU SELECCIÓN*/
+.detailCartStyle {
+    flex-direction: column;
+}
+#selectionContainer {
+    text-align: center;
+}
+#cart-container{
+    margin-top:50px;
+    text-align:right;
+    padding-right:30px;
+}
+#cart-container a:hover,a:focus{
+    color:black;
+}
+.linkCart {
+    color: black;
+    text-decoration: none;
+}
+#products {
+    padding-left: 50px;
+}
+.infoProduct {
+    margin-top:20px;
+    min-height: 400px;
+    padding: 0px 20px;
+}
+.btnContainer{
+    text-align:center;
+}
+.productContainer {
+    padding-top: 20px;
+    background-color:white;
+}
+.imageContainer {
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    min-height:400px;
+}
+.addToCart {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Carrito*/
+.cartProductsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containerDeleteOption {
+    display: flex;
+    padding-top: 10px;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+.imgDotOptions {
+    width: 100%;
+    height: 100%;
+}
+.btnDeleteOption {
+    border: none;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    background-color: transparent;
+}
+.oneProduct {
+    width: 85%;
+    margin-top: 20px;
+    background-color: white;
+}
+.tableInformation {
+    width: 80%;
+}
+.btnReturnClass {
+    height: 100px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.infoContainer {
+    text-align: center;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+.imgInfo {
+    width: 100px;
+    height: 100px;
+}
+/*Responsive desing opciones*/
+@media(min-width:768px) {
+    #cakeBefore {
+        width: 35%;
+    }
+
+    #burgerBefore {
+        width: 65%;
+    }
+
+    #packBefore {
+        width: 60%;
+    }
+
+    #otherBefore {
+        width: 40%;
+    }
+
+    .btnOptions {
+        border-bottom: none;
+    }
+    a:hover, a:focus {
+        color: #FFB6C1;
+        background-size: 25% 4px;
+    }
+}
+@media(min-width:992px){
+    #selectionContainer {
+        margin: 0px 70px;
+    }
+    #products {
+        padding-left: 0px;
+    }
+    .infoContainer {
+        padding: 0px 0px;
+    }
+
+    .imgInfo {
+        width: 200px;
+        height: 200px;
+    }
+} 

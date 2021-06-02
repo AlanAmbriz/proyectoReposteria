@@ -1,0 +1,45 @@
+﻿body {
+    margin: 0;
+    height: 0;
+    height: 100%;
+    overflow: hidden;
+}
+#login {
+    height: 100vh;
+}
+#fondoLogin {
+    display: flex;
+    min-width: 100%;
+    min-height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Recursos/login/loginImage.jpg);
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    padding: 20px;
+    align-items: center;
+    justify-content: end;
+}
+#login-container {
+    background-color: white;
+    min-height:400px;
+    width: 440px;
+    color: black;
+    border-radius: 20px;
+}
+#content-login {
+    padding: 25px;
+}
+#header-login {
+    text-align: center;
+    padding-top: 20px;
+}
+#footer-login {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+/*RESPONSIVE DESIGN*/
+@media (min-width:890px) {
+    #fondoLogin {
+        padding-left: 250px;
+    }
+}

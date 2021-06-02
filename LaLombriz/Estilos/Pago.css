@@ -1,0 +1,42 @@
+﻿body {
+    background-color: #E9E6E6;
+}
+.sandbox-badge {
+    display: none;
+}
+.layout__col-sidebar{
+    display:none;
+}
+.oneProduct {
+    border-bottom: 1px solid #C6C1C2;
+}
+#sellOption {
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px 10px 0px 0px;
+}
+#title-cart-container{
+    text-align:center;
+}
+#detailOrder {
+    display: flex;
+    justify-content: center;
+}
+@media(min-width:680px){
+    .cartProductsContainer {
+        padding: 150px 120px 10px 120px;
+        width: 1140px;
+    }
+
+    .tableInformation {
+        padding: 0px 35px 0px 35px;
+    }
+    #sellOption {
+        padding: 50px 148px 0px 0px;
+        width: 1140px;
+    }
+    #sell-container {
+        display: flex;
+        justify-content: center;
+    }
+}
